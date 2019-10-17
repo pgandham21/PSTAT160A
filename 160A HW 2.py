@@ -33,7 +33,7 @@ for i in range(10000):
 probThreeUniqueSongs = threeUnique/10000
 probTwoUniqueSongs = twoUnique/10000
 probOneUniqueSongs = oneUnique/10000
-print("After 10,000 simulations, the probability that after 3 songs are played that your professor listens to three unique songs is %s ." %probThreeUniqueSongs)
+print("After 10,000 simulations, the probability that after 3 songs are played that your professor listens to three unique songs is %s." %probThreeUniqueSongs)
 
 #Calculate average number of unique songs that professor listens to when 3 songs are played
 expectedValue = (1/4*1) + (1/3*2) + (1/2*3) 
